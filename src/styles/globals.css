@@ -1,0 +1,22 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hide scrollbar by default, show on scroll */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(37, 99, 235, 0.3) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(37, 99, 235, 0.3);
+  border-radius: 99px;
+}
